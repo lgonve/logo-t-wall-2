@@ -1,0 +1,92 @@
+.logo-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: background-color .5s;
+
+
+
+}
+
+.logo-1:hover{
+
+        background-color: rgb(0, 41, 94);
+    
+}
+
+
+
+.shadow-item {
+
+    height: 350px;
+    width: 550px;
+    background: rgb(1, 10, 51);
+    color: rgb(224, 225, 229);
+    font-family: 'Epilogue', sans-serif;
+    font-size: 3em;
+    padding-bottom: 15px;
+    text-shadow: 2px 8px 8px rgb(0, 0, 0);
+    font-weight: 200;
+    line-height:120px;
+    font-size: 140px;
+    text-align: center;
+    align-items: center;
+    border-radius: 0px 0px 0px 0px;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+     
+
+    
+}
+
+
+
+.sub-logo{
+    font-size: 60px;
+    border: 2px;
+    border-color: black;
+    padding-top: 0px;
+    line-height: 60px;
+    letter-spacing: 10px;
+    
+
+}
+
+.folk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 10, 51);
+    clip-path: polygon(16% 0, 16% 72%, 33% 83%, 33% 100%, 0 100%, 0 51%, 0 0);
+    height: 350px;
+    width: 500px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(60%, -50%); */
+    
+
+}
+
+.folk-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 10, 51);
+    clip-path: polygon(16% 0, 16% 72%, 33% 83%, 33% 100%, 0 100%, 0 51%, 0 0);
+    height: 350px;
+    width: 500px;
+    transform: rotateY(180deg);
+    
+    
+
+}
